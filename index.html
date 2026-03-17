@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>Barsha Portfolio | Web Developer</title>
+    <meta
+      name="description"
+      content="Barsha's personal portfolio showcasing web development projects, skills, and contact information."
+    />
+
+    <!-- Open Graph (for Facebook, LinkedIn) -->
+    <meta property="og:title" content="Barsha Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore Barsha's projects and skills in web development."
+    />
+    <meta property="og:image" content="https://via.placeholder.com/1200x630" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Barsha Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Modern web developer portfolio."
+    />
+    <meta name="twitter:image" content="https://via.placeholder.com/1200x630" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XXXX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-XXXX");
+    </script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h2 class="logo">Barsha</h2>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Hello I'm <span>Barsha</span></h1>
+        <h2 id="typing"></h2>
+        <p>Web developer passionate about building modern websites.</p>
+        <button onclick="scrollProjects()">View Projects</button>
+      </div>
+      <img src="https://via.placeholder.com/300" alt="profile" />
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <h2>My Skills</h2>
+      <div class="skill-box">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">Node.js</div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="card">
+          <h3>Petal Paradise</h3>
+          <p>Online flower shop website.</p>
+        </div>
+        <div class="card">
+          <h3>Tour Guide System</h3>
+          <p>Local guide booking platform.</p>
+        </div>
+        <div class="card">
+          <h3>Portfolio Website</h3>
+          <p>Personal developer portfolio.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <input type="text" placeholder="Your Name" />
+      <input type="email" placeholder="Email" />
+      <textarea placeholder="Message"></textarea>
+      <button onclick="sendMessage()">Send</button>
+    </section>
+
+    <footer>
+      <p>© 2026 Barsha Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

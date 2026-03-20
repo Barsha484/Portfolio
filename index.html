@@ -1,43 +1,48 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- SEO -->
-    <title>Barsha Portfolio | Web Developer</title>
+    <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <meta
       name="description"
-      content="Barsha's personal portfolio showcasing web development projects, skills, and contact information."
+      content="Contact information for Barsha Portfolio"
     />
+    <meta name="author" content="Barsha" />
+    <title>Barsha Portfolio - Contact</title>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
 
-    <!-- Open Graph (for Facebook, LinkedIn) -->
-    <meta property="og:title" content="Barsha Portfolio" />
-    <meta
-      property="og:description"
-      content="Explore Barsha's projects and skills in web development."
-    />
-    <meta property="og:image" content="https://via.placeholder.com/1200x630" />
-    <meta property="og:type" content="website" />
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Barsha Portfolio" />
-    <meta
-      name="twitter:description"
-      content="Modern web developer portfolio."
-    />
-    <meta name="twitter:image" content="https://via.placeholder.com/1200x630" />
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.png" />
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- Google Analytics -->
+      // Default consent for EU and UK GDPR regions
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+        regions: ["EU", "GB"],
+      });
+      // Default consent for all other users
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+      });
+    </script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="//cdn.cookie-script.com/s/ef7d25a4056b3e4a86f50390a30baa1f.js"
+    ></script>
+    <!-- Google tag (gtag.js) -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-XXXX"
+      src="https://www.googletagmanager.com/gtag/js?id=G-VNFVHJLYCY"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -45,76 +50,190 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-      gtag("config", "G-XXXX");
+
+      gtag("config", "G-VNFVHJLYCY");
     </script>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="styles.css" rel="stylesheet" />
   </head>
-  <body>
-    <!-- Navbar -->
-    <nav>
-      <h2 class="logo">Barsha</h2>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <body class="d-flex flex-column h-100">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+      <div class="container px-5">
+        <a class="navbar-brand" href="index.html">
+          <span class="fw-bolder text-primary">Barsha</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero-text">
-        <h1>Hello I'm <span>Barsha</span></h1>
-        <h2 id="typing"></h2>
-        <p>Web developer passionate about building modern websites.</p>
-        <button onclick="scrollProjects()">View Projects</button>
+    <!-- Header -->
+    <header class="py-5">
+      <div class="container px-5 pb-5">
+        <div class="row gx-5 align-items-center">
+          <div class="col-xxl-5">
+            <div class="text-center text-xxl-start">
+              <div
+                class="badge bg-gradient-primary-to-secondary text-white mb-4"
+              >
+                <div class="text-uppercase">
+                  Backend Developer · Web Developer · Database Management
+                </div>
+              </div>
+              <div class="fs-3 fw-light text-muted">
+  Turning ideas into digital solutions
+</div>
+<h1 class="display-3 fw-bolder mb-5">
+  <span class="text-gradient d-inline">with design, development, and strategy</span>
+</h1>
+              </h1>
+              <div
+                class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3"
+              >
+                <a
+                  class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
+                  href="resume.html"
+                  >Resume</a
+                >
+                <a
+                  class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"
+                  href="projects.html"
+                  >Projects</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-7">
+  <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+    <div class="profile-wrapper">
+      <div class="profile-background">
+        <img src="assets/profile.jpeg" alt="Barsha Profile Background" />
       </div>
-      <img src="https://via.placeholder.com/300" alt="profile" />
-    </section>
+      <div class="profile-img-container">
+        <img
+          class="profile-img"
+          src="profile.jpeg"
+          alt="Barsha Profile"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+    </header>
 
-    <!-- Skills -->
-    <section class="skills" id="skills">
-      <h2>My Skills</h2>
-      <div class="skill-box">
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
-        <div class="skill">JavaScript</div>
-        <div class="skill">React</div>
-        <div class="skill">Node.js</div>
+    <!-- About Section -->
+    <section class="bg-light py-5">
+      <div class="container px-5">
+        <div class="row gx-5 justify-content-center">
+          <div class="col-xxl-8">
+            <div class="text-center my-5">
+              <h2 class="display-5 fw-bolder">
+                <span class="text-gradient d-inline">About Me</span>
+              </h2>
+
+              <p class="lead fw-light mb-4">
+                Hi, I'm Barsha — a passionate Junior Web Developer.
+              </p>
+
+              <p class="text-muted">
+                I am currently pursuing a Bachelor of Information Management
+                (BIM) at Kanya Campus. I have a strong interest in web
+                development and enjoy creating modern, responsive, and
+                user-friendly websites.
+                <br /><br />
+                My skills include HTML, CSS, JavaScript, React, Node.js, MySQL,
+                and MongoDB. I also use tools like Figma and Canva for designing
+                UI/UX.
+                <br /><br />
+                I am continuously learning new technologies and improving my
+                skills to build real-world web applications and grow as a
+                full-stack developer.
+              </p>
+              <div class="d-flex justify-content-center fs-2 gap-4">
+  <!-- GitHub -->
+  <a class="text-gradient" href="https://github.com/barsa74" target="_blank">
+    <i class="bi bi-github"></i>
+  </a>
+  
+  <!-- LinkedIn -->
+  <a class="text-gradient" href="https://www.linkedin.com/in/barsha-gurung-69b211281/" target="_blank">
+    <i class="bi bi-linkedin"></i>
+  </a>
+
+   <!-- Email -->
+  <a class="text-gradient" 
+   href="https://mail.google.com/mail/?view=cm&to=bgurung8467@gmail.com" 
+   target="_blank">
+  <i class="bi bi-envelope"></i>
+</a>
+  </a>
+</div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Projects -->
-    <section class="projects" id="projects">
-      <h2>Projects</h2>
-      <div class="project-grid">
-        <div class="card">
-          <h3>Petal Paradise</h3>
-          <p>Online flower shop website.</p>
-        </div>
-        <div class="card">
-          <h3>Tour Guide System</h3>
-          <p>Local guide booking platform.</p>
-        </div>
-        <div class="card">
-          <h3>Portfolio Website</h3>
-          <p>Personal developer portfolio.</p>
+    <!-- Footer -->
+    <footer class="bg-white py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0">Copyright &copy; Barsha 2026</div>
+          </div>
+          <div class="col-auto">
+            <a class="small" href="privacy.html">Privacy</a>
+            <span class="mx-1">&middot;</span>
+            <a class="small" href="terms.html">Terms</a>
+            <span class="mx-1">&middot;</span>
+            <a class="small" href="contact.html">Contact</a>
+          </div>
         </div>
       </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="contact" id="contact">
-      <h2>Contact Me</h2>
-      <input type="text" placeholder="Your Name" />
-      <input type="email" placeholder="Email" />
-      <textarea placeholder="Message"></textarea>
-      <button onclick="sendMessage()">Send</button>
-    </section>
-
-    <footer>
-      <p>© 2026 Barsha Portfolio</p>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
